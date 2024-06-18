@@ -28,3 +28,5 @@ Capacitor C4: Suaviza a corrente que flui através do transistor U1.
 
 
     - Visualização 3D
+
+![Captura de tela 2024-06-18 202546](https://github.com/ViZanella/SISTEMAS-EMBARCADOS-RTOS./assets/126624524/623665b5-b4c7-4125-ad6f-a59d8aabff30)
