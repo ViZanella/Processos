@@ -5,18 +5,13 @@
 
   O circuito funciona da seguinte maneira:
 
-    - Ativação do relé:
+    Ativação do relé:
 
   Quando a entrada J1 recebe uma tensão de 12V, a corrente flui através do resistor R2 e do diodo D1, energizando a base do transistor U1.
 O transistor U1 liga, permitindo que a corrente flua através da bobina do relé RL1.
 A corrente na bobina do relé cria um campo magnético que atrai a armadura do relé, mudando o estado dos contatos.
 
-    - Desativação do relé:
-
-  Quando a tensão na entrada J1 cai para 0V, a corrente através do transistor U1 é interrompida.
-A armadura do relé volta à sua posição original, abrindo os contatos do relé.
-
-    - Função dos componentes
+    Função dos componentes
 
 Diodo D1: Protege o transistor U1 contra picos de voltagem reversa.
 Diodo D2: Protege a bobina do relé contra picos de voltagem reversa quando o relé é desativado.
@@ -24,11 +19,11 @@ Transistor U1: Amplifica a corrente da entrada J1 para energizar a bobina do rel
 Resistor R2: Limita a corrente que flui através da base do transistor U1.
 Capacitor C4: Suaviza a corrente que flui através do transistor U1.
 
-    - Visualação PCB
+    Visualação PCB
 
 ![Captura de tela 2024-06-18 202601](https://github.com/ViZanella/SISTEMAS-EMBARCADOS-RTOS./assets/126624524/b0aa25a3-c0d1-4a9a-9a93-95887701d402)
 
 
-    - Visualização 3D
+    Visualização 3D
 
 ![Captura de tela 2024-06-18 202546](https://github.com/ViZanella/SISTEMAS-EMBARCADOS-RTOS./assets/126624524/623665b5-b4c7-4125-ad6f-a59d8aabff30)
